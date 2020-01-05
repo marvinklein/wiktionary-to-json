@@ -28,6 +28,3 @@ Creates a JSON file at data/wiktionary.json with the entirety of wiktionary.
 -w, --wikitext    Write the original wikitext markup to the output
 -p, --prune       A file with a list of sections to keep
 ```
-
-- Fix command line progress bars
-- Upload to Github
