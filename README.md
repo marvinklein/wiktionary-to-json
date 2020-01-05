@@ -1,16 +1,17 @@
-# Wiktionary-to-JSON
+# wiktionary-to-json
 
 Converts a Wiktionary dump into structured JSON data.
 
 ## Installation
 ```
-$ TK
+$ git clone https://github.com/marvinklein/wiktionary-to-json.git
+$ cd wiktionary-to-json
 $ npm install
 $ wget -P data/ https://dumps.wikimedia.org/enwiktionary/latest/enwiktionary-latest-pages-meta-current.xml.bz2
 ```
 
 ## Use
-```$ node makeJson.js```
+```$ node app.js```
 
 Creates a JSON file at data/wiktionary.json with the entirety of wiktionary.
 

@@ -1,8 +1,8 @@
 {
-  "name": "wiktionary",
+  "name": "wiktionary-to-json",
   "version": "0.0.1",
-  "description": "",
-  "main": "index.js",
+  "description": "Converts a Wiktionary dump into structured JSON data",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
