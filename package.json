@@ -1,0 +1,24 @@
+{
+  "name": "wiktionary",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "JSONStream": "^1.3.5",
+    "cli-progress": "^3.4.0",
+    "moo": "^0.5.1",
+    "nearley": "^2.19.0",
+    "progress-stream": "^2.0.0",
+    "unbzip2-stream": "^1.3.3",
+    "xml-stream": "^0.4.5",
+    "yargs": "^15.1.0"
+  },
+  "devDependencies": {
+    "eslint-config-marvinklein": "git+https://github.com/marvinklein/eslint-config.git"
+  }
+}
